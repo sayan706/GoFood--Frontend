@@ -7,7 +7,7 @@ export default function Login() {
   let navigate = useNavigate()
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://go-food-backend-pfp4r3wv4-sayan706.vercel.app/api/loginuser", {
+    const response = await fetch("https://go-food-backend.vercel.app/api/loginuser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
