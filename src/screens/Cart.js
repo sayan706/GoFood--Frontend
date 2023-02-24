@@ -20,7 +20,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("https://go-food-backend-pfp4r3wv4-sayan706.vercel.app/api/OrderData",{ 
+    let response = await fetch("https://go-food-backend.vercel.app/api/OrderData",{ 
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
