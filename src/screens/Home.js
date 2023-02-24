@@ -10,7 +10,7 @@ export default function Home() {
   const [foodItem, setfoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://go-food-backend-pfp4r3wv4-sayan706.vercel.app/api/foodData", {
+    let response = await fetch("https://go-food-backend.vercel.app/api/foodData", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
